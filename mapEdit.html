@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>マップエディタもどき</title>
+<link rel="stylesheet" href="mapEdit.css"></link>
+<script src="mapEdit.js" type="text/javascript">
+</script>
+</head>
+<body onload="init()">
+<table id="board"></table>
+<h2 id="info"></h2>
+<button onclick="mode()">描画モード</button>
+<br>
+</body>
+</html>
+
+//まずCSSにcell,td,tableすべてにpadding:0を適用したが、
+横の隙間は消えたが縦のマス同士の隙間が消えず、cellに
+display:blockを適用したら隙間がなくなった。
+<br>
+//描画モードにすることで一回ずづクリックしなくてもいいようにした。
+ifの条件式を変数pressだけで完結させた。
