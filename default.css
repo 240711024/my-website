@@ -70,3 +70,21 @@ nav #current a {
 footer {
     clear: both;
 }
+
+.gold {
+    background:#4578;
+    color: gold;
+    font-weight: bold;
+}
+
+.silver {
+    background:#4578;
+    color: rgb(160, 152, 152);
+    font-weight: bold;
+}
+
+.bronze {
+    background:#4578;
+    color: #cd7f32;
+    font-weight: bold;
+}
