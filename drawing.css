@@ -1,0 +1,31 @@
+.redText{
+    color:red;
+}
+
+.greenText{
+    color:green;
+}
+
+.blueText{
+    color:blue;
+}
+
+#r {
+    accent-color: red;
+}
+
+#g {
+    accent-color: green;
+}
+
+#b {
+    accent-color: blue;
+}
+
+#sample{
+    width:30px;
+    height:30px;
+    border:1px solid black;
+    display:inline-block;
+    vertical-align:middle;
+}
